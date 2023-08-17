@@ -19,7 +19,7 @@
 
 
 ### Wire frames:
-
+![prototype](./src/resources/prototype.png)
 
 ### Technologies used:
 
