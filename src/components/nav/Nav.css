@@ -1,0 +1,41 @@
+.navBar {
+    background-color: #30302F;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 15em; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; 
+    top: 5em;
+    left: 1em;
+    bottom: 5em;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.appLogo {
+    padding-top: 1em;
+}
+.navButton {
+    background-color: #30302F;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: flex;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+button {
+    background-color: #847A67;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;    
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
