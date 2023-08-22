@@ -19,7 +19,6 @@
     background-color: #4A4A4A;
     padding: 1em;
     border-radius: 20px;
-
   }
   
   /* Styling for the utility section */
@@ -35,11 +34,32 @@
     color: #777;
   }
   
-  /* Adding some spacing between points and comments */
-  .utility p + p {
-    margin-left: 15px;
+  .utilityGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .points {
+    margin: 0 0.5em 0 0.5em;
+  }
+
+  .comments {
+    margin-left: 1em;
+  }
+  .shareButton {
+    margin-right: 1em;
   }
   
+  .postHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-  
-  
+  .postHeader p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+  }

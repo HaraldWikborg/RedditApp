@@ -6,7 +6,6 @@
     z-index: 1; 
     top: 5em;
     left: 1em;
-    bottom: 5em;
     overflow-x: hidden; 
     padding-top: 20px;
     display: flex;
@@ -15,29 +14,63 @@
     border-radius: 20px;
 
 }
+@media only screen and (max-width: 600px) {
+    .navBar {
+        padding: 0em 1em;
+        flex-direction: row;
+        height: 5em;
+        width: auto;
+        right: 1em;
+        top: 0.5em;
+        justify-content: space-between;
+        transition: top 0.3s;
+        box-shadow: 0px 5px 3px 1px rgba(0,0,0,.8);
+    }
+    .appLogo {
+        padding: 0em !important;
+    }
+    .appLogo svg {
+        height: 50px;
+        width: 50px;
+    }
+    .navButton {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .navButton button {
+        padding: 5px !important;
+    }
+    .home {
+        display: none  !important;
+    }
+    .navButton button svg {
+        height: 30px;
+        width: 30px;
+    }
+    .settings svg {
+        height: 50px;
+        width: auto;
+    }
+}
+
 .appLogo {
     padding-top: 1em;
 }
 .navButton {
     background-color: #30302F;
-    color: #FFFFFF;
     border: none;
-    font-size: 16px;
     padding: 10px 20px;
     display: flex;
     text-decoration: none;
     margin: 4px 2px;
     border-radius: 4px;
 }
-button {
+.navButton button {
     background-color: #847A67;
-    color: #FFFFFF;
     border: none;
-    font-size: 16px;
     padding: 10px 20px;
     cursor: pointer;
     display: inline-block;    
     text-decoration: none;
-    margin: 4px 2px;
     border-radius: 4px;
 }
