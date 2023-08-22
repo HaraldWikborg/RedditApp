@@ -1,0 +1,45 @@
+.post {
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0em 1em 1em 1em;
+    background-color: #30302F;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the post title */
+  .postTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the post content */
+  .postContent {
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #4A4A4A;
+    padding: 1em;
+    border-radius: 20px;
+
+  }
+  
+  /* Styling for the utility section */
+  .utility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for points and comments */
+  .utility p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Adding some spacing between points and comments */
+  .utility p + p {
+    margin-left: 15px;
+  }
+  
+
+  
+  

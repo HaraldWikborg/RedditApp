@@ -1,8 +1,8 @@
 .navBar {
     background-color: #30302F;
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 15em; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    height: 40em;
+    width: 15em; 
+    position: fixed; 
     z-index: 1; 
     top: 5em;
     left: 1em;
@@ -12,6 +12,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+
 }
 .appLogo {
     padding-top: 1em;

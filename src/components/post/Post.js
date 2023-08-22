@@ -1,6 +1,7 @@
 import React from 'react';
-
-export default function Post({ title, content, points, comments }) {
+import './Post.css';
+export default function Post({ post }) {
+  const { title, content, points, comments } = post;
   return (
     <div className='post'>
         <h1 className='postTitle'>{title}</h1>
