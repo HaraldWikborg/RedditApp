@@ -4,6 +4,8 @@ import './Nav.css';
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
+  const width = window.innerWidth;
+  if (width < 600) {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navBar").style.top = "0.5em";
@@ -11,6 +13,9 @@ window.onscroll = function() {
     document.getElementById("navBar").style.top = "-6em";
   }
   prevScrollpos = currentScrollPos;
+} else {
+    document.getElementById("navBar").style.top = "5em";
+}
 }
 
 export default function Nav() {
