@@ -43,11 +43,11 @@
 
 
 ### To Do:
-    1. optimize navbar and content for smaller screen
+    1. optimize navbar and content for smaller screen (done)
     2. add media function to posts
-    3. start figuring how to implement api calls
-    4. implement data from api calls to feed
-    5. implement home function (refresh api calls)
+    3. start figuring how to implement API calls
+    4. implement data from API calls to feed
+    5. implement home function (refresh API calls)
     6. implement popular view function
     7. implement search function
     8. implement filter for category function

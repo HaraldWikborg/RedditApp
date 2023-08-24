@@ -1,9 +1,70 @@
 .App {
     display: block;
 }
+a {
+    text-decoration: none;
 
+}
 @media only screen and (max-width: 600px) {
     .App {
         font-size: smaller;
+    }
+}
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 16em;
+}
+@media only screen and (max-width: 600px) {
+    .feed {
+        margin-left: 0;
+        width: auto;
+    }
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 17em;
+    background-color: #30302F;
+    border-radius: 20px;
+}
+.categories h1 {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.5em;
+    background-color: #847A67;
+    padding: 0.5em;
+    border-radius: 20px;
+}
+.category-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+  }
+  
+.category-item {
+    padding: 10px;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.5em;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+  
+  .category-item:hover {
+    background-color: #847A67;
+  }
+@media only screen and (max-width: 600px) {
+    .categories {
+        margin-left: 0;
+        width: auto;
     }
 }
