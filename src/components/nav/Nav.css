@@ -34,6 +34,7 @@
         width: 50px;
     }
     .navButton {
+        font-weight: lighter;
         padding: 0px !important;
         margin: 0px !important;
     }
@@ -43,14 +44,13 @@
     .home {
         display: none  !important;
     }
-    .navButton button svg {
+    .navButton svg {
         height: 30px;
         width: 30px;
     }
     .settingsIcon svg {
         height: 50px;
         width: auto;
-        background-color: #847A67;
     }
 }
 
