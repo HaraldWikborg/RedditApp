@@ -16,9 +16,9 @@ export default function Nav() {
             <Link to='/categories'><button>Categories</button></Link>
         </div>
         <div className='navButton'>
-            <Link to='/search'><button>{searchIcon()}</button></Link>
+            <Link to='/search'>{searchIcon()}</Link>
         </div>
-        <div className='settings'>
+        <div className='settingsIcon'>
         <Link to='/settings'>{settingsIcon()}</Link>
         </div>
     </div>

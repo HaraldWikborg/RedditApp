@@ -1,10 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default function Search() {   
   return (
-    <div className='searchBar' id='searchBar'>
+    <div className='search'>
         <h1>Search</h1>
+        <div className='searchBar'>
+        <input type="text" placeholder="Search.."></input>
+        <button>Search</button>
+        </div>
     </div>
   );
 }
